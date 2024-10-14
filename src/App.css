@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* NavBar */
+
+#navbarSupportedContent {
+  text-align: center;
+}
+
+nav .log-in {
+  color: white;
+  background-color: #106580;
+  border: #106580;
+}
+
+nav li:hover {
+  background-color: #106580;
+  border-radius: 50px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav {
+  background-color: black !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+
+/* Banner */
+
+.banner {
+  background-image: url('./assets/image/banner.png'),
+    linear-gradient(to right, #f06b6b, #f0935a);
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.banner h5 {
+  width: auto;
+  max-width: 70vh;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.banner p {
+  font-size: 12px;
+}
+
+.banner svg {
+  transform: translate(0, -2.5px);
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 4px transparent solid;
+}
+
+.banner a:hover {
+  border-bottom: 4px #106580 solid;
+  font-weight: 700;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.banner .watch-now {
+  border-color: #106580;
+  background-color: #106580;
+  color: white;
+}
+
+.banner .watch-now:hover {
+  background-color: #083341;
+  border-color: #083341;
+  color: white;
+}
+
+.banner .heart:hover {
+  background-color: gray;
+}
+
+.banner .hr-1 {
+  background-color: #106580;
+  height: 1vh;
+  width: 6vw;
+  opacity: 100%;
+  border-radius: 50px;
+  border: none;
+}
+
+.banner .hr-2 {
+  background-color: white;
+  height: 1vh;
+  width: 1vh;
+  padding: 0;
+  border-radius: 50px;
+  opacity: 100%;
+}
+
+/* Trending */
+
+.trending {
+  color: white;
+}
+
+.trending span {
+  color: yellow;
+}
+
+.trending-bg {
+  background-color: rgb(32, 32, 32);
+}
+
+.carousel-item {
+  height: 26vh;
+}
+
+.trending-card {
+  background-size: cover;
+  background-position: center;
+  width: 44vh;
+  height: 25vh;
+  border-radius: 25px;
+}
+
+.trending-card:hover {
+  box-shadow: 0 0 5px 4px rgba(246, 237, 237, 1), 0 0 20px 4px rgba(236, 208, 30, 0.472);
+  border-radius: 25px;
+  transition: border-bottom 0.3s ease-in-out;
+  background-color: transparent;
+}
+
+.trending-card-1 {
+  background-image: url(./assets/image/trending-image-1.png);
+}
+
+.trending-card-2 {
+  background-image: url(./assets/image/trending-image-2.png);
+}
+
+.trending-card-3 {
+  background-image: url(./assets/image/trending-image-3.png);
+}
+
+.trending-text {
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0));
+}
+
+.trending p {
+  font-size: 10px;
+  color: gray;
+}
+
+.trending .photo-card {
+  height: 50vh;
+  width: 22vw;
+  border-radius: 25px;
+  border: white 3px solid;
+}
+
+.throwback-card-1 {
+  background-image: url(./assets/image/thowback-image-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.throwback-card-2 {
+  background-image: url(./assets/image/thowback-image-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.throwback-card-3 {
+  background-image: url(./assets/image/thowback-image-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Modal */
+
+.modal-card-1 {
+  background-image: url(./assets/image/trending-image-1.png);
+  background-size: cover;
+  background-position: center;
+  width: 44vh;
+  height: 50vh;
+  border-radius: 25px;
+}
+
+.modal .modal-synopsis {
+  font-size: 15px;
+}
+
+.modal .episodes img {
+  width: 30vh;
+  border-radius: 25px;
+}
+
+.modal-header button {
+  background-color: white;
+}
+
+.modal .episodes p {
+  font-size: 15px;
+}
